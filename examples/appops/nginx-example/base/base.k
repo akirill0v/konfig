@@ -13,7 +13,6 @@ appConfiguration: frontend.Server {
             value = "MY_VALUE"
         }
     }
-    image = "nginx:1.7.8"
     services = [
         service.Service {
             name = "nginx"
